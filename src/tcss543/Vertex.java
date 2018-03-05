@@ -10,17 +10,17 @@ package tcss543;
  * @author chuningwei
  */
 public class Vertex {
+
     int id;
     int color;
     int adjcentDegree;
     int saturationDgree;
-    
-    public Vertex(int id,int adjcentDegree)
-    {
-        this.id=id;
-        this.color=-1;
-        this.adjcentDegree=adjcentDegree;
-        this.saturationDgree=0;
+
+    public Vertex(int id, int adjcentDegree) {
+        this.id = id;
+        this.color = -1;
+        this.adjcentDegree = adjcentDegree;
+        this.saturationDgree = 0;
     }
-    
+
 }
